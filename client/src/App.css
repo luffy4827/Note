@@ -1,0 +1,16 @@
+* {
+  @apply text-white cursor-default;
+}
+
+body {
+  @apply bg-gray-600;
+}
+
+input,
+textarea {
+  @apply cursor-text border-none outline-none focus:outline-none focus:border-transparent;
+}
+
+Link {
+  @apply cursor-pointer;
+}
